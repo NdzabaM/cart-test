@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0 (Python 3.10.8 on win32)" generated="20221031 11:29:16.589" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\Ndzaba\.vscode\extensions\robocorp.robotframework-lsp-1.3.5\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Open Browser">
+<arg>http://www.google.com.br/ browser=gc</arg>
+<msg timestamp="20221031 11:29:21.543" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20221031 11:29:21.543" endtime="20221031 11:29:21.543"/>
+</kw>
+<kw name="Go To">
+<arg>url=</arg>
+<status status="NOT RUN" starttime="20221031 11:29:21.549" endtime="20221031 11:29:21.549"/>
+</kw>
+<kw name="Input Text">
+<arg>name=q</arg>
+<arg>text=Previsão do tempo para Porto Alegre</arg>
+<status status="NOT RUN" starttime="20221031 11:29:21.554" endtime="20221031 11:29:21.554"/>
+</kw>
+<kw name="Press Keys">
+<arg>name=q</arg>
+<arg>RETURN</arg>
+<status status="NOT RUN" starttime="20221031 11:29:21.559" endtime="20221031 11:29:21.559"/>
+</kw>
+<kw name="Wait Until Page Contains">
+<arg>Previsão do tempo para os próximos 15 dias em Porto Alegre</arg>
+<arg>timeout=10</arg>
+<status status="NOT RUN" starttime="20221031 11:29:21.565" endtime="20221031 11:29:21.565"/>
+</kw>
+<kw name="Close Browser">
+<status status="NOT RUN" starttime="20221031 11:29:21.572" endtime="20221031 11:29:21.573"/>
+</kw>
+<status status="PASS" starttime="20221031 11:29:16.809" endtime="20221031 11:29:26.046"/>
+</kw>
+<status status="PASS" starttime="20221031 11:29:16.809" endtime="20221031 11:29:26.046"/>
+</test>
+<status status="PASS" starttime="20221031 11:29:16.604" endtime="20221031 11:29:26.049"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
